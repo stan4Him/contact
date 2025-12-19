@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+N: Shaner;Kevin;;;
+FN:Kevin&nbsp;&nbsp;Shaner
+TITLE:
+PHOTO;VALUE#URI;TYPE#JPG:https://fulllineexhaust.com/contact/images/FLLogo.jpg
+EMAIL:kshaner@fulllineexhaust.com
+ORG:Full Line Exhaust
+TEL;type=Phone:800.848.1072
+TEL;type=Fax:229.386.9430
+URL;type=pref:https://www.fulllineexhaust.com/
+ADR:;197 Upper Ty Ty Road;Tifton, GA 31793;
+END:VCARD

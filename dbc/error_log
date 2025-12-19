@@ -1,0 +1,17 @@
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  include(db_inc_new.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 7
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  include(): Failed opening 'db_inc_new.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 7
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 15
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 19
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 56
+[14-Feb-2024 17:14:59 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/fulllineexhaust/public_html/contact/dbc/bizzy.php on line 59
+[14-Feb-2024 17:21:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/contact/dbc/bizcard.php on line 19
+[14-Feb-2024 17:21:24 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/contact/dbc/bizcard.php on line 19
+[14-Feb-2024 17:21:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/contact/dbc/bizcard.php on line 19
+[20-Aug-2024 07:46:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 19
+[20-Aug-2024 07:46:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 59
+[20-Aug-2024 16:49:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 19
+[20-Aug-2024 16:49:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 59
+[09-Sep-2024 19:00:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 19
+[09-Sep-2024 19:00:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 59
+[09-Sep-2024 19:01:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 19
+[09-Sep-2024 19:01:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/dbc/bizcard.php on line 59

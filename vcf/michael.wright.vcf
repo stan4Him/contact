@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+N: Wright;Michael;;;
+FN:Michael&nbsp;&nbsp;Wright
+TITLE:Inside Sales
+PHOTO;VALUE#URI;TYPE#JPG:https://fulllineexhaust.com/contact/images/wedlogonew.jpg
+EMAIL:mwright@fulllineexhaust.com
+ORG:Wynne Exhaust
+TEL;type=Phone:901.937.5373
+TEL;type=Fax:615.283.4519
+URL;type=pref:https://www.fulllineexhaust.com/
+ADR:;1886 Brooks Road, Suite E;Memphis TN 38816;
+END:VCARD

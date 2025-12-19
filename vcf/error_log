@@ -1,0 +1,242 @@
+[19-Apr-2021 15:37:21 UTC] PHP Warning:  include(db_inc_new.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 2
+[19-Apr-2021 15:37:21 UTC] PHP Warning:  include(): Failed opening 'db_inc_new.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 2
+[19-Apr-2021 15:37:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 5
+[19-Apr-2021 15:37:21 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 7
+[19-Apr-2021 16:12:23 UTC] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE), expecting '(' in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 7
+[19-Apr-2021 16:16:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/contact/vcf/vcf2.php on line 23
+[21-Feb-2022 21:54:34 UTC] PHP Warning:  include(db_inc_new.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 3
+[21-Feb-2022 21:54:34 UTC] PHP Warning:  include(): Failed opening 'db_inc_new.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 3
+[21-Feb-2022 21:54:34 UTC] PHP Fatal error:  Uncaught Error: Class 'JeroenDesloovere\VCard\VCard' not found in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 8
+[21-Feb-2022 21:54:59 UTC] PHP Fatal error:  Uncaught Error: Class 'JeroenDesloovere\VCard\VCard' not found in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 8
+[21-Feb-2022 21:56:39 UTC] PHP Fatal error:  Uncaught Error: Class 'JeroenDesloovere\VCard' not found in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 8
+[21-Feb-2022 21:58:04 UTC] PHP Warning:  require_once(/home/fulllineexhaust/public_html/contact/vcf/../vendor/autoload.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 2
+[21-Feb-2022 21:58:04 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fulllineexhaust/public_html/contact/vcf/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 2
+[21-Feb-2022 21:58:46 UTC] PHP Warning:  require_once(/home/fulllineexhaust/public_html/contact/vcf/src/VCard.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 3
+[21-Feb-2022 21:58:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/fulllineexhaust/public_html/contact/vcf/src/VCard.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php on line 3
+[21-Feb-2022 22:01:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mime_content_type() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:244
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(474): JeroenDesloovere\VCard\VCard->addMedia('PHOTO', '$row[16]', true, 'photo')
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(40): JeroenDesloovere\VCard\VCard->addPhoto('$row[16]')
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 244
+[21-Feb-2022 22:03:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(48): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[21-Feb-2022 22:05:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(48): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[21-Feb-2022 22:09:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[21-Feb-2022 22:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[14-Jun-2022 17:05:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 529
+[14-Jun-2022 17:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:24:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:43:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:44:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:47:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:47:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[07-Dec-2023 19:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/contact/vcf/Vcard_generator.php(49): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[10-Feb-2024 04:33:25 UTC] PHP Warning:  include(../lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:33:25 UTC] PHP Warning:  include(): Failed opening '../lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:33:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:33:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:33:25 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:34:26 UTC] PHP Warning:  include(/lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:34:26 UTC] PHP Warning:  include(): Failed opening '/lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:34:26 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:35:16 UTC] PHP Warning:  include(/home/fulllineexhaust/public_html/contact/vcf/lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:35:16 UTC] PHP Warning:  include(): Failed opening '/home/fulllineexhaust/public_html/contact/vcf/lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:35:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:35:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:35:16 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:37:08 UTC] PHP Warning:  include(lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:37:08 UTC] PHP Warning:  include(): Failed opening 'lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:37:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:37:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:37:08 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:37:56 UTC] PHP Warning:  include(/lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:37:56 UTC] PHP Warning:  include(): Failed opening '/lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:37:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:37:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:37:56 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:39:07 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:39:07 UTC] PHP Warning:  include(https://fulllineexhaust.com/contact/vcf/lib/full/qrlib.php): failed to open stream: no suitable wrapper could be found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:39:07 UTC] PHP Warning:  include(): Failed opening 'https://fulllineexhaust.com/contact/vcf/lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:39:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:39:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:39:07 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:40:52 UTC] PHP Warning:  include(../vcf/lib/full/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:40:52 UTC] PHP Warning:  include(): Failed opening '../vcf/lib/full/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:40:52 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:41:40 UTC] PHP Warning:  include(/lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:41:40 UTC] PHP Warning:  include(): Failed opening '/lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:41:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:41:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:41:40 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:43:44 UTC] PHP Warning:  include(/lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:43:44 UTC] PHP Warning:  include(): Failed opening '/lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:43:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:43:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:43:44 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:44:41 UTC] PHP Warning:  include(/lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:44:41 UTC] PHP Warning:  include(): Failed opening '/lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 3
+[10-Feb-2024 04:44:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 29
+[10-Feb-2024 04:44:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:3) in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 30
+[10-Feb-2024 04:44:41 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 73
+[10-Feb-2024 04:46:48 UTC] PHP Warning:  include(/lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:46:48 UTC] PHP Warning:  include(): Failed opening '/lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:46:48 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 74
+[10-Feb-2024 04:48:28 UTC] PHP Warning:  include(/lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:48:28 UTC] PHP Warning:  include(): Failed opening '/lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:48:28 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 74
+[10-Feb-2024 04:51:07 UTC] PHP Warning:  include(../lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:51:07 UTC] PHP Warning:  include(): Failed opening '../lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:51:07 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 74
+[10-Feb-2024 04:53:41 UTC] PHP Warning:  include(../lib/qrlib.php): failed to open stream: No such file or directory in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:53:41 UTC] PHP Warning:  include(): Failed opening '../lib/qrlib.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 70
+[10-Feb-2024 04:53:41 UTC] PHP Fatal error:  Uncaught Error: Class 'QRcode' not found in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/fulllineexhaust/public_html/contact/vcf/bizcard_working.php on line 74
+[20-Aug-2024 11:17:45 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php on line 35
+[20-Aug-2024 11:17:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 529
+[20-Aug-2024 11:17:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php(97): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[20-Aug-2024 11:20:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vcf.php on line 8
+[24-Aug-2024 12:35:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vcf2.php on line 7
+[26-Aug-2024 14:12:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vcf2.php on line 7
+[27-Aug-2024 19:23:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php on line 35
+[27-Aug-2024 19:23:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 529
+[27-Aug-2024 19:23:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php(97): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[27-Aug-2024 19:33:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vcf.php on line 8
+[16-Dec-2025 09:37:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 529
+[16-Dec-2025 09:37:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php(97): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755
+[16-Dec-2025 09:38:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 529
+[16-Dec-2025 09:38:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function JeroenDesloovere\VCard\mb_strlen() in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php:755
+Stack trace:
+#0 /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php(618): JeroenDesloovere\VCard\VCard->getHeaders(false)
+#1 /home/fulllineexhaust/public_html/fleapps/contact/vcf/Vcard_generator.php(97): JeroenDesloovere\VCard\VCard->download()
+#2 {main}
+  thrown in /home/fulllineexhaust/public_html/fleapps/contact/vcf/vendor/jeroendesloovere/vcard/src/VCard.php on line 755

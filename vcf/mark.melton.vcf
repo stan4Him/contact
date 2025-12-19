@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+N: Melton;Mark;;;
+FN:Mark&nbsp;&nbsp;Melton
+TITLE:Inside Sales
+PHOTO;VALUE#URI;TYPE#JPG:https://fulllineexhaust.com/contact/images/wedlogonew.jpg
+EMAIL:mmelton@fulllineexhaust.com
+ORG:Wynne Exhaust
+TEL;type=Phone:800.851.5905
+TEL;type=Fax:870.238.5441
+URL;type=pref:https://www.fulllineexhaust.com/
+ADR:;102 Murray Avenue;Wynne AR 72396;
+END:VCARD
