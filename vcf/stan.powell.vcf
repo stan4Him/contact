@@ -3,11 +3,10 @@ VERSION:4.0
 PRODID:-//BBros.us llc//bvCard.com//EN
 N:Powell;Stan;;;
 FN:Stan Powell
-EMAIL:spowell@fulllineexhaust.com
-SMS:spowell@fulllineexhaust.com
-ORG:Full Line Exhaust
-TEL:334.793.6367
-TEL;type=FAX:334.793.1656
-URL;type=pref:https://www.fulllineexhaust.com
-ADR:;151 Tinker Court;:Dothan, AL 36305;
+EMAIL:me@stanpowell.com
+SMS:3347981529
+ORG:Stan Powell
+TEL:334.798.1529
+URL;type=pref:https://www.stanpowell.com
+ADR:;100 Mill Stone Drive;:Dothan, AL 36305;
 END:VCARD

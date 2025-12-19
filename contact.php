@@ -82,7 +82,8 @@ $logo = $row['logo'];
 <div class="row">
  
   <div class="col text-center">
-  <img src="<?php echo $logo; ?>" width = "200" alt="Company Logo">
+  <img src="<?php echo '/images/MyAvatar.png' ?>" width = "200" alt="My Avatar">
+  <!-- <img src="<?php echo $logo; ?>" width = "200" alt="Company Logo"> -->
   </div></div>
   <div class="row">
   <div class="col text-center">
@@ -119,7 +120,7 @@ $logo = $row['logo'];
 <br />
 <div class="row">
 <div class="col text-center">
-<a href="https://apps.fulllineexhaust.com/contact/vcf/<?php echo $vcf; ?>" style="background-color: navy;  color: white;  padding: 1em 1.5em;  text-decoration: none;">Add To Address Book</a>
+<a href="https://stanpowell.com/contact/vcf/<?php echo $vcf; ?>" style="background-color: navy;  color: white;  padding: 1em 1.5em;  text-decoration: none;">Add To Address Book</a>
 </div>
 </div>
 <br />
