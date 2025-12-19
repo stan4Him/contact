@@ -78,15 +78,16 @@ $logo = $row['logo'];
 
 }
 ?>
-<div class="container">
+<div class="container" style="width:400px;">
 <div class="row">
  
   <div class="col text-center">
-  <img src="<?php echo '/images/MyAvatar.png' ?>" width = "200" alt="My Avatar">
+  <img src="<?php echo 'https://stanpowell.com/contact/images/MyAvatar.png' ?>" style="width:100%; max-width:400px;" alt="My Avatar">
   <!-- <img src="<?php echo $logo; ?>" width = "200" alt="Company Logo"> -->
-  </div></div>
+  </div></div></div>
+  <div class="container" style="width:400px;">
   <div class="row">
-  <div class="col text-center">
+  <div class="col text-center" style="background-color: navy; border-radius: 10px; color: white; width: 400px;">
   <h4><?php echo ($first. ' '.$last); ?></h4>
   <?php echo $title; ?>
   <br /><?php echo $company_name; ?>
@@ -96,7 +97,9 @@ $logo = $row['logo'];
   <br /><?php echo $mobile_hpone_no; ?>
   </div>
 </div>
-<hr style="border: thin solid navy; width: 50%;">
+</div>
+<!-- <hr style="border: thin solid navy; width: 50%;"> -->
+<div class="container" style="width:400px;">
 <div class="row">
 <div class="col text-center">
 <a href="tel:<?php echo $phone; ?>">
@@ -111,13 +114,14 @@ $logo = $row['logo'];
 <img src="https://stanpowell.com/contact/images/sms_icon.jpg" width = "50" alt="SMS"/></a>
 </div>
 <div class="col text-center">
-<a href="https://www.stanpowell.com">
-<img src="https://www.stanpowell.com/contact/images/website_icon.png" width = "50" alt="QR Code"/></a>
+<a href="https://www.stanpowell.com/contact/qrcodes/Stan.Powell.png">
+<img src="https://www.stanpowell.com/contact/qrcodes/Stan.Powell.png" width = "50" alt="QR Code"/></a>
 </div>
 </div>
-
+</div>
 
 <br />
+<div class="container" style="width:400px;">
 <div class="row">
 <div class="col text-center">
 <a href="https://stanpowell.com/contact/vcf/<?php echo $vcf; ?>" style="background-color: navy;  color: white;  padding: 1em 1.5em;  text-decoration: none;">Add To Address Book</a>
@@ -128,6 +132,8 @@ $logo = $row['logo'];
 
 <br />
 <br />
+</div>
+</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
